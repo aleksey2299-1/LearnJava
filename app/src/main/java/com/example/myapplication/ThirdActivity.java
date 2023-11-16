@@ -22,9 +22,9 @@ public class ThirdActivity extends AppCompatActivity {
             // Формируем "пустое" намерение
             Intent intent = new Intent();
             // Добавляем в намерение данные
-            intent.putExtra("result",name);
+            intent.putExtra("result", name);
             // Устанавливаем результат
-            setResult(RESULT_OK,intent);
+            setResult(RESULT_OK, intent);
             // Закрываем Activity
             finish();
         });

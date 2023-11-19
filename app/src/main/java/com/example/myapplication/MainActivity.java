@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Nullable Intent data
     ) {
 
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE) {
             if (resultCode == RESULT_CANCELED) {
                 Toast.makeText(this, "Пользователь вышел из ThirdActivity", Toast.LENGTH_SHORT).show();

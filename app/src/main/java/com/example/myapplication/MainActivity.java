@@ -53,4 +53,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ThirdActivity.class);
         mStartForResult.launch(intent);
     }
+
+    public void arrayClick(View view) {
+        Intent intent = new Intent(this, AdapterActivity.class);
+        startActivity(intent);
+    }
 }

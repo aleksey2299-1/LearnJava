@@ -58,4 +58,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AdapterActivity.class);
         startActivity(intent);
     }
+
+    public void arrayClick2(View view) {
+        Intent intent = new Intent(this, AdapterActivity2.class);
+        startActivity(intent);
+    }
+
+    public void arrayClick3(View view) {
+        Intent intent = new Intent(this, AdapterActivity3.class);
+        startActivity(intent);
+    }
+
+    public  void productsClick(View view) {
+        Intent intent = new Intent(this, ProductActivity.class);
+        startActivity(intent);
+    }
 }

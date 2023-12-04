@@ -19,7 +19,7 @@ public class ProductActivity extends AppCompatActivity {
         products.add(new Product("Молоко", "л."));
         products.add(new Product("Макароны", "кг."));
         ListView productList = findViewById(R.id.productList);
-        ProductAdapter adapter = new ProductAdapter(this, R.layout.list_item, products);
+        ProductAdapter adapter = new ProductAdapter(this, R.layout.list__product_item, products);
         productList.setAdapter(adapter);
     }
 }

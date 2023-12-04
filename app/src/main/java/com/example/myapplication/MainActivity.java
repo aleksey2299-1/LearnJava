@@ -73,4 +73,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ProductActivity.class);
         startActivity(intent);
     }
+
+    public  void spinnerClick(View view) {
+        Intent intent = new Intent(this, SpinnerActivity.class);
+        startActivity(intent);
+    }
+
+    public  void autoCompleteClick(View view) {
+        Intent intent = new Intent(this, AutoCompleteActivity.class);
+        startActivity(intent);
+    }
+
+    public  void recyclerClick(View view) {
+        Intent intent = new Intent(this, RecyclerViewActivity.class);
+        startActivity(intent);
+    }
 }
